@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
-import Projects from "./pages/Projects";
 import Footer from "./components/Footer";
 import ProjectDetail from "./Pages/ProjectDetail";
 import ScrollToTop from "./components/ScrollToTop";
+import Projects from "./pages/Projects";
 
 export default function App() {
   return (

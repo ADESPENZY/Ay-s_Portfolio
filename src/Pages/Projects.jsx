@@ -1,11 +1,10 @@
-// src/pages/Projects.jsx
 import React from "react";
 import { motion } from "motion/react";
 import { ExternalLink } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 import { projects } from "../data/projects";
 
-export default function Projects() {
+const Projects = () => {
   const navigate = useNavigate();
 
   return (
@@ -193,5 +192,7 @@ export default function Projects() {
         </div>
       </div>
     </section>
-  );
+  )
 }
+
+export default Projects
