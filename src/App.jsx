@@ -3,7 +3,7 @@ import Home from "./Pages/Home";
 import Footer from "./components/Footer";
 import ProjectDetail from "./Pages/ProjectDetail";
 import ScrollToTop from "./components/ScrollToTop";
-import Projects from "./pages/Projects";
+import Projects from "./Pages/Projects";
 
 export default function App() {
   return (
